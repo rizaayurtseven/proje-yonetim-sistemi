@@ -27,7 +27,6 @@ import com.stajprojesi.backend.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/projects")
-@CrossOrigin(origins = "*")
 public class ProjectController {
 
     @Autowired

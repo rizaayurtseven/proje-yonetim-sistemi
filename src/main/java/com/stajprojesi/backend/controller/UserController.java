@@ -17,7 +17,6 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/api/admin/users") // Admin'e özel endpoint
-@CrossOrigin(origins = "http://localhost:3000") // Frontend adresin
 public class UserController {
 
     @Autowired
